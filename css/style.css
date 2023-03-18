@@ -1,0 +1,53 @@
+.div{
+    cursor: pointer;
+}
+
+body{
+    background-color: black;
+}
+.imgContant{
+    background-color: brown;
+    overflow: hidden;
+}
+.imgContant .hover{
+   
+  background-color: rgba(255, 255, 255, 0.9);
+   top: 110%;
+    left: 0px;
+    right: 0px;
+    transition: all .5s;
+}
+.imgContant:hover .hover{
+  top: 0px;
+
+}
+#navBar{
+    position: fixed;
+  
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+   
+    z-index: 999;
+   
+}
+#navBar i{
+    cursor: pointer;
+}
+.whiteNave{
+   width: 5rem; 
+    background-color: white;
+}
+.blackNave{
+width: 15rem;
+    text-decoration: none;
+
+    
+}
+.blackNave ul li a{
+    text-decoration: none;
+}
+.blackNave ul li{
+    padding: .5rem;
+}
+
